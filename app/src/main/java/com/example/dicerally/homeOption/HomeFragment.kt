@@ -1,4 +1,4 @@
-package com.example.dicerally.fragments
+package com.example.dicerally.homeOption
 
 import android.os.Bundle
 import android.text.TextUtils.replace
@@ -16,12 +16,6 @@ import com.example.dicerally.databinding.FragmentHomeBinding
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-
-    }
 
     override fun onCreateView( inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View?
     {

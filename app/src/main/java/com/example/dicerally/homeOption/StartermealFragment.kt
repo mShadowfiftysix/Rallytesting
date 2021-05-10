@@ -1,4 +1,4 @@
-package com.example.dicerally.fragments
+package com.example.dicerally.homeOption
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

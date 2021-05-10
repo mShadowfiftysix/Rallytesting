@@ -5,9 +5,8 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.dicerally.databinding.ActivityMainBinding
 import com.example.dicerally.fragments.FavouritesFragment
-import com.example.dicerally.fragments.HomeFragment
+import com.example.dicerally.homeOption.HomeFragment
 import com.example.dicerally.fragments.SettingsFragment
-import com.example.dicerally.fragments.startermealFragment
 
 
 class MainActivity : AppCompatActivity() {

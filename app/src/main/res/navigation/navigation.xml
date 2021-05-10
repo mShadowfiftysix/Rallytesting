@@ -6,7 +6,7 @@
     app:startDestination="@id/recipeFragment">
     <fragment
         android:id="@+id/startermealFragment"
-        android:name="com.example.dicerally.fragments.startermealFragment"
+        android:name="com.example.dicerally.homeOption.startermealFragment"
         android:label="fragment_startermeal"
         tools:layout="@layout/fragment_startermeal" />
     <fragment
