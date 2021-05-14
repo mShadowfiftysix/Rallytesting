@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.example.dicerally.databinding.FragmentRecipeBinding
 
+
 class RecipeFragment : Fragment() {
 
 
@@ -23,8 +24,13 @@ private var _binding:FragmentRecipeBinding?=null
     ): View? {
         _binding = FragmentRecipeBinding.inflate(inflater, container, false)
         binding.forret.setOnClickListener {
+
             val toast = Toast.makeText( activity,"Du klikkede forret", Toast.LENGTH_LONG)
+
             toast.show()
+
+
+
         }
         binding.hoved.setOnClickListener {
             val toast = Toast.makeText( activity,"Du klikkede hovedret", Toast.LENGTH_LONG)

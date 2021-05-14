@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".homeOption.HomeFragment"
+    android:name="com.example.dicerally.homeOption.RecipeFragment"
    >
 
 
@@ -14,13 +15,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <fragment
-            android:id="@+id/myNavHostFragment"
-            android:name="androidx.navigation.fragment.NavHostFragment"
-            android:layout_width="match_parent"
-            android:layout_height="650dp"
-            app:defaultNavHost="true"
-            app:navGraph="@navigation/navigation" />
+
 
     </LinearLayout>
 </FrameLayout>
